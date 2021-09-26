@@ -6,10 +6,15 @@
         "phpunit/phpunit": "^9.0",
         "pestphp/pest": "^1.19"
     },
-
     "autoload": {
         "psr-0": {
             "Pascal": "app/classes"
         }
+    },
+    "scripts": {
+        "test:unit": "php bin/pest --colors=always --exclude-group=integration",
+        "test": [
+            "@test:unit"
+        ]
     }
 }
