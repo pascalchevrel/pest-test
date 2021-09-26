@@ -1,4 +1,10 @@
 {
+    "properties": {
+        "name": {
+            "type": "Test",
+            "description": "pascalchevrel/pest-test ",
+        },
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.0",
         "pestphp/pest": "^1.19"
