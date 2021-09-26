@@ -10,11 +10,5 @@
         "psr-0": {
             "Pascal": "app/classes"
         }
-    },
-    "scripts": {
-        "test:unit": "php bin/pest --colors=always --exclude-group=integration",
-        "test": [
-            "@test:unit"
-        ]
     }
 }
