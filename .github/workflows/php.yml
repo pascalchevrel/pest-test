@@ -36,5 +36,7 @@ jobs:
     needs: install
 
     steps:
+    - uses: actions/checkout@v2
+
     - name: Run test suite
       run: composer run-script test
